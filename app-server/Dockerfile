@@ -10,7 +10,7 @@ COPY ./app ./
 RUN npm install
 
 # Cnnot run build here, but we can copy the app-output directly into container
-RUN npm run build
+#RUN npm run build
 
 EXPOSE 3000
 # EXPOSE 24678

@@ -4,4 +4,4 @@
 .git
 node_modules
 .svelte-kit
-app-output
+#app-output

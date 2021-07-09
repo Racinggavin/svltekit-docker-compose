@@ -34,6 +34,6 @@ export default {
 ### Development
 We can build and run the Welcome svelteKit app in docker container by using ```docker-compose -f docker-compose.dev.yml up``` successfully.
 
-### Production (something wrong)
+### Production (It's work at copy-app-output branch)
 To apply production we use just ```docker-compose up```
 
