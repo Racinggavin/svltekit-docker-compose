@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app-server-dev:
+    build:
+      context: ./app-server
+      dockerfile: Dockerfile.dev
+    image: app-server:1.0.0-dev
+    stdin_open: true
+    ports:
+      - "3000:3000"
+      - "24678:24678"
+    container_name: app-dev
