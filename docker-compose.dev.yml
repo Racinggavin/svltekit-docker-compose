@@ -11,3 +11,6 @@ services:
       - "3000:3000"
       - "24678:24678"
     container_name: app-dev
+    volumes:
+      - './app-server/app/static:/usr/src/app/static'
+      - './app-server/app/src:/usr/src/app/src'
